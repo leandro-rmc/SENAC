@@ -1,0 +1,183 @@
+body{
+	background-color:#eee;
+}
+.texto-avaliacao{
+    resize: none;
+    width:100%;
+}
+.z-index-1{
+	z-index:1;
+}
+.z-index-2{
+	z-index:2;
+}
+.aval-container{
+	position:relative; 
+	overflow:hidden;
+}
+.aval-nota{
+	z-index:-1; 
+	top:0;
+	left:0;
+	position:absolute;
+	height:100%;
+}
+.pizza-container{
+	max-height:80vh; 
+	overflow:auto;
+}
+.bg-laranja-escuro{
+	background-color:darkorange;
+}
+.text-laranja-escuro{
+	color:darkorange;
+}
+.border-semitransparente-25{
+	border-color:rgba(0,0,0,0.25)!important;
+}
+.w-10{
+	width:10%;
+}
+.laptop-table{
+	min-width:991px;
+}
+.miniatura {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position:relative;
+	text-align:center;
+}
+.miniatura-titulo{
+	position:absolute; 
+	width:80%; 
+	left: 10%;
+	top:3%;
+	border-radius:10px;
+}
+.miniatura img{
+	min-height: 100%;
+	max-height: 130%;
+	min-width:50%;
+	max-width: 120%;
+}
+.miniatura img.avaliacao{
+	min-width:100%;
+}
+.parallax{
+	background-size:cover;
+	background-attachment:fixed;
+}
+.font-monospace{
+	font-family:Monospace;
+}
+.bg-semitransparente-50{
+	background-color:rgba(0,0,0,0.5);
+}
+.bg-semitransparente-70{
+	background-color:rgba(0,0,0,0.7);
+}
+.bg-pizza{
+	background: rgba(107, 14, 25, 1);
+}
+.bg-verde{
+	background-color:#196b0e;
+}
+.btn-ghost-verde{
+	border:2px solid #196b0e;
+}
+.btn-ghost-laranjaescuro{
+	border:2px solid darkorange;
+}
+.text-branco{
+	color:#fff!important;
+}
+.text-branco:hover{
+	color: rgba(255,255,255,0.5)!important;
+}
+.text-verde{
+	color:#196b0e;
+}
+.text-amarelo{
+	color:yellow;
+}
+.text-cinza{
+	color:#989898;
+}
+.bg-pizza-img{
+	background-image: url("../imagem/pizzabg.jpg");
+}
+.bg-feliz-img{
+	background-image: url('../imagem/feliz.jpg');
+}
+.btn-pizza{
+	background-color: darkorange;
+	color: #fff;
+	border:1px solid rgba(0,0,0,0.2);
+}
+.btn-pizza:hover{
+	color: rgba(255,255,255,0.5);
+}
+.card-shadow{
+	box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.35);
+}
+.card-area-responsiva-descricao{
+	height:50px; 
+	overflow:auto;
+}
+.card-area-responsiva-preco{
+	height:80px; 
+	overflow:auto;
+}
+.card-area-responsiva-tamanhoPizza{
+	height:50px; 
+	overflow:auto;
+}
+.section-shadow{
+	box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.75);
+}
+.bg-branco{
+	background-color:#fff;
+}
+.bg-preto{
+	background-color:#22262a;
+}
+.dropdown-pizza .dropdown-menu a{
+	color: rgba(255,255,255,0.5);
+}
+.dropdown-pizza .dropdown-menu{
+	background-color:rgba(0,0,0,0.9)!important;
+	border-radius:0!important;
+	padding:0!important;
+}
+.dropdown-pizza .dropdown-menu a:active,
+.dropdown-pizza .dropdown-menu a:focus,
+.dropdown-pizza .dropdown-menu a:hover{
+	color:#fff!important;
+	background-color:darkorange!important;
+}
+.dropdown-pizza .dropdown-item.active{
+	color:#fff!important;
+	background-color:darkorange!important;
+}
+@media (max-width : 575px) {
+	.card-responsivo{
+		max-width:300px;
+		margin:0 auto;
+	}
+}
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 1200px) {
+	
+}

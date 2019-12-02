@@ -1,0 +1,287 @@
+body{
+	background-color:#EEEEEE;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+
+.valores-dia{ 
+	padding-bottom:10px; 
+	padding-top:10px; 
+	background-color:#222; 
+	font-family: monospace; 
+	color:orange; 
+	text-transform:uppercase; 
+	font-size:20px; 
+	font-weight: bold;
+}
+.valores-promocao{
+	color:yellow;
+}
+.valores-container{
+	background-color:#292929; 
+	color:white;
+}
+.valores-tipo{
+	padding-top:10px;
+}
+.valores-valor{
+	font-size:30px; 
+	padding-top:10px; 
+	padding-bottom:10px;
+}
+.valores-container-total:not(:first-child){
+	padding-top:30px;
+}
+
+.nenhum-filme{
+	font-family:Monospace;
+	font-size:1.1em;
+	padding:10px;
+}
+footer{
+	background-color:#222; 
+	margin-top:1%;
+	border-top:1px solid #101010;
+}
+footer h3{
+	color:#fff;
+}
+.footer-copyright{
+	background-color:#000; 
+	padding:5px; 
+	text-align:center;
+}
+.col-acao{
+	margin-top:2%;
+}
+.col-footer{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.col-subtitulo{
+	color:#dcdcdc;
+}
+.caixa-erro-form *{
+	display:block;
+	color:#FF0000;
+}
+.modal-cinefra{
+	/*
+	background-color:rgba(0,0,0,0.95);
+	*/
+	background-color:rgba(18,18,18,0.95);
+	border:1px solid rgba(0,0,0,0.4);
+	color:#fff;
+	padding:1.5%;
+}
+.modal-cinefra label{
+	font-size:13px;
+	margin:0;
+}
+.modal-cinefra input{
+	background-color:#E0E0E0;
+	margin-bottom:1%;
+}
+.modal-cinefra .close{
+	color:#fff;
+	opacity:1;
+}
+.container-endereco{
+	margin-top:30px;
+}
+.container-endereco > div > div{
+	margin-bottom:20px;
+}
+.twitter, .facebook, .youtube{
+	font-size:40px;
+}
+.twitter{
+	color:#0099FF;
+}
+.facebook{
+	color:#003dc1;
+}
+.youtube{
+	color:#CC0000;
+}
+.separador{
+	height:20px;
+}
+.container-filme > div:first-child{
+	background-color:rgba(0,0,0,0.8); 
+	color:#fff;
+	font-family:monospace;
+	font-size:17px;
+	padding:10px;
+}
+.poster-filme{
+	position:relative;
+	margin:15px 0 15px 0;
+	outline:2px solid #000;
+}
+.poster-filme:hover{
+	cursor:pointer;
+}
+
+.poster-titulo{
+	color:white; 
+	font-family:monospace; 
+	padding:0px 5px 0px 5px; 
+	background-color: rgba(0,0,0,0.4); 
+	position:absolute;
+	width:100%;
+	text-align:center;
+	text-shadow:1px 1px #000;
+}
+.carousel_r{
+	background-color:#222;
+	padding:20px 0 20px 0;
+}
+
+.btn-comprar,.pagina-filme-sala-esgotado{
+	margin-top:20px;
+}
+.pagina-filme-sala-local, .pagina-filme-sala-titulo{
+	font-size:20px;
+	line-height:20px;
+}
+.programacao-titulo{
+	font-size:15px;
+	color:yellow;
+}
+.programacao-titulo:hover{
+	color:yellow;
+}
+.pagina-filme-sala-vagas{
+	font-size:11px;
+}
+.pagina-filme-sala-esgotado{
+	color:red;
+	font-weight:bold;
+	font-size:13px;
+}
+.filme-container{
+	height:400px;
+	width:300px;
+}
+.filme-container img{
+	width:100%;
+	height:100%;
+}
+
+.pagina-filme-sala{
+	background-color:#444; 
+	font-family:monospace;
+	color:#fff;
+	margin-top:1%;
+	border-radius:1%;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.pagina-filme-salas{
+	padding:20px;
+}
+
+.pagina-filme-linha span{
+	font-weight:bold;
+}
+.pagina-filme-titulo{
+	margin-bottom:10px;
+	padding:10px;
+	font-weight:bold;
+	font-family:monospace;
+	font-size:35px;
+	border-bottom:1px solid #000;
+	text-align:center;
+}
+.pagina-filme-poster{
+	border:2px solid #000;
+}
+.pagina-filme-container{
+	
+}
+.pagina-filme-variavel > span{
+	margin-right:5px;
+	margin-top:10px;
+	width:50px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+}
+
+.navbar-cinefra .navbar-brand {                
+	padding-top:0;
+}
+.navbar-cinefra .navbar-brand img{
+	height:40px;
+	margin-top:4px;
+}
+.carousel img{
+	margin:0 auto;
+	border-radius:3px;
+}
+.carousel-inner{
+	width:auto!important; 
+}
+.carousel img{
+	height:100%!important;
+}
+.carousel-indicators li{
+	padding:2% 3% 2% 3%;
+}
+@media (min-width:768px){
+	.poster-filme{
+		height:250px;
+	}
+	.poster-filme img{
+		height:250px;
+		width:100%;
+	}
+}
+@media (max-width:768px){
+	.poster-filme{
+		height:320px;
+	}
+	.poster-filme img{
+		height:320px;
+		width:100%;
+	}
+	.pagina-filme-salas{
+		padding:5px;
+	}
+}
+@media (max-width:370px){
+	.poster-filme{
+		height:200px;
+	}
+	.poster-filme img{
+		height:200px;
+		width:100%;
+	}
+	.pagina-filme-titulo{
+		font-size:20px!important;
+		margin-top:10px;
+	}
+}
+@media (min-width:721px){
+	.carousel-inner{
+		height:400px!important;
+	}
+}
+@media (max-width:720px){
+	.carousel-inner{
+		height:300px!important;
+	}
+}
+@media (max-width:400px){
+	.carousel-inner{
+		height:150px!important;
+	}
+	.carousel-indicators li{
+		padding:4% 6% 4% 6%;
+	}
+}

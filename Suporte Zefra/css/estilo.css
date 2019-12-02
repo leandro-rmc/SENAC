@@ -1,0 +1,74 @@
+#formTecnico{
+	display:none;
+}
+.btn-chamado, .btn-bonito, .btn-chamado-grande{
+	width:190px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:10px;
+}
+.btn-chamado-grande{
+	padding:40px;
+}
+.modal textarea{
+	resize:none;
+}
+.chamado{
+	padding:10px;
+	border:2px solid #eee;
+	margin-bottom:30px;
+}
+.chamado-pego{
+	border-left:5px solid yellow;
+}
+.chamado-resolvido{
+	border-left:5px solid green;
+}
+.informacao .row{
+	margin-bottom:10px;
+}
+.label-perfil{
+	display:block;
+	color:black;
+	font-weight:bold;
+}
+.informacao{
+	border-radius:20px;
+	background-color:white;
+}
+.perfil{
+	background-color:#f2efef;
+	padding:20px;
+	border-radius:20px;
+}
+.msg-status{
+	font-weight:bold;
+}
+.mensagem-erro{
+	padding:5px;
+	color:red;
+	font-weight:bold;
+	border-radius:10px;
+}
+.info-chamado{
+	padding-left:10px;
+	font-weight:bold;
+}
+.mensagem-chamado{
+	padding:30px;
+	margin-bottom:30px;
+	font-weight:bold;
+	color:green;
+}
+.caixa-stats{
+	padding:30px;
+}
+.adminCmd{
+	margin-top:40px;
+	margin-bottom:40px;
+	padding:20px;
+	border:1px solid lightgrey;
+}
+.status-chamado{
+	color:green;
+}
